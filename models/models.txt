@@ -1,0 +1,3 @@
+"heterogenous": "deeplabv3+_resnet50_bestModel_het12.pth", mIoU = 88.8 % on het test data
+"homogeneous": "deeplabv3+_resnet50_bestModel_ref11.pth", mIoU = 94.8 % on hom test data
+"castiron": "deplabv3+_resnet50_castiron_stratifiedmakrooo.pth", mIoU = 92.8 % on castiron test data
