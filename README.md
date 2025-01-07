@@ -103,7 +103,7 @@ python script_name.py --type PE --data_dir ./data/test_data --model_dir ./models
 
 2. **Model Selection**: Lists available models in the specified directory and prompts the user to select one.
 
-3. **Evaluation Execution**: Depending on the selected type (--type), the script performs prediction, evaluation, or measurement.
+3. **Evaluation Execution**: Depending on the selected type (`--type`), the script performs prediction, evaluation, or measurement.
 
 4. **Output**: Results are printed and saved in the specified target directory.
 
