@@ -40,7 +40,9 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 
 Clone this repository:
 
-```git clone <repository-url>```
+```python
+git clone <repository-url>
+```
 
 Navigate to the project directory:
 
