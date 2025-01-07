@@ -4,9 +4,15 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 
 # Features
 
-* Prediction: Generate segmentation masks from models.
-* Evaluation: Compute metrics to evaluate model performance.
-* Measurement: Measure specific characteristics (e.g., crack size).
+* Prediction: Generate segmentation masks from models using the three provided models:
+  * For steel SE(B) specimens (preferably captured in front of a blue background) use: `homogeneous.pth`. 
+  * For all other specimen types (and background colors) use: `heterogeneous.pth` .
+  * For castiron specimens (preferably captured in front of a blue background) use: `castiron.pth`.
+* Evaluation: Compute metrics to evaluate model performance. The following metrics are analyzed: 
+  * Pixel Accuracy
+  * Precision, Recall and F1-score
+  * mIoU (mean Intersection over Union)
+* Measurement: Measure initial crack sizes using the area average method.
 * Flexible Operations: Combine prediction, evaluation, and measurement as needed.
 
 # Requirements
@@ -34,7 +40,7 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 
 Clone this repository:
 
-git clone <repository-url>
+"""git clone <repository-url>"""
 
 Navigate to the project directory:
 
