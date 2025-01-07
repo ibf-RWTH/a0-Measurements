@@ -41,12 +41,14 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 Clone this repository:
 
 ```python
-git clone [<repository-url>](https://github.com/ibf-RWTH/a0-Measurements.git)
+git clone https://github.com/ibf-RWTH/a0-Measurements.git
 ```
 
 Navigate to the project directory:
 
+```sh
 cd <repository-folder>
+```
 
 Install dependencies:
 
