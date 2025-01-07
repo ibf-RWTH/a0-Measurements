@@ -11,24 +11,24 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 
 # Requirements
 
-* Python 3.x
-* Required packages (can be installed via requirements.txt if available):
-  * ` albumentations==1.3.0
-  * \matplotlib==3.8.0
-  * \numpy==1.23.4
-  * \opencv-python==4.7.0.68
-  * \pandas==2.1.1
-  * \patchify==0.2.3
-  * \pillow==9.3.0
-  * \scikit-image==0.19.3
-  * \scikit-learn==1.1.3
-  * \seaborn==0.13.2
-  * \segmentation_models_pytorch==0.3.4
-  * \torch==2.5.1
-  * \torchvision==0.20.1
-  * \torch-summary==1.4.5
-  * \tqdm==4.67.1
-* Custom module: \customevaluation from the lib folder
+* `Python 3.x`
+* Required packages (can be installed via `requirements.txt`):
+  * `albumentations==1.3.0`
+  * `matplotlib==3.8.0`
+  * `numpy==1.23.4`
+  * `opencv-python==4.7.0.68`
+  * `pandas==2.1.1`
+  * `patchify==0.2.3`
+  * `pillow==9.3.0`
+  * `scikit-image==0.19.3`
+  * `scikit-learn==1.1.3`
+  * `seaborn==0.13.2`
+  * `segmentation_models_pytorch==0.3.4`
+  * `torch==2.5.1`
+  * `torchvision==0.20.1`
+  * `torch-summary==1.4.5`
+  * `tqdm==4.67.1`
+* Custom module: `customevaluation` from the lib folder
 
 # Installation
 
