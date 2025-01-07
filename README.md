@@ -39,7 +39,7 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 ## Installation
 
 Clone this repository:
-```python
+```sh
 git clone https://github.com/ibf-RWTH/a0-Measurements.git
 ```
 
