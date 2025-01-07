@@ -13,7 +13,7 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
 
 * Python 3.x
 * Required packages (can be installed via requirements.txt if available):
-  * \albumentations==1.3.0
+  * \ albumentations==1.3.0
   * \matplotlib==3.8.0
   * \numpy==1.23.4
   * \opencv-python==4.7.0.68
