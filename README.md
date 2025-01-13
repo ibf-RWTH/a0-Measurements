@@ -71,7 +71,7 @@ python model_evaluation.py [--type TYPE] [--data_dir DATA_DIR] [--model_dir MODE
   * `EM`: Evaluate and measure (requires prediction masks)
   * `A`: All types (default)
 
-* `--data_dir`: Directory where the test images and labels are stored. Default: `./data/het_test_data`.
+* `--data_dir`: Directory where the test images and labels are stored. Default: `./data/steel_test_data`.
 
 * `--model_dir`: Directory to import the models from. Default: `./models`.
 
