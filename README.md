@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 Run the script using the command line:
 ```sh
-python script_name.py [--type TYPE] [--data_dir DATA_DIR] [--model_dir MODEL_DIR] [--target_dir TARGET_DIR] [--prefix PREFIX] [--target_dims TARGET_DIMS]
+python model_evaluation.py [--type TYPE] [--data_dir DATA_DIR] [--model_dir MODEL_DIR] [--target_dir TARGET_DIR] [--prefix PREFIX] [--target_dims TARGET_DIMS]
 ```
 
 ## Arguments
@@ -84,7 +84,7 @@ python script_name.py [--type TYPE] [--data_dir DATA_DIR] [--model_dir MODEL_DIR
 ## Example
 
 ```sh
-python script_name.py --type PE --data_dir ./data/test_data --model_dir ./models --target_dir ./results
+python model_evaluation.py --type PE --data_dir ./data/test_data --model_dir ./models --target_dir ./results
 ```
 
 ## Structure
