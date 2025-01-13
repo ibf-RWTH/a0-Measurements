@@ -45,7 +45,7 @@ def get_arguments():
                                                   A - All types.'
                         )
     # data_dir 
-    parser.add_argument('--data_dir', type=str, default='./data/het_test_data', 
+    parser.add_argument('--data_dir', type=str, default='./data/steel_test_data', 
                         help='Directory where the test images and labels are stored.')
     # model_dir
     parser.add_argument('--model_dir', type=str, default='./models', 
