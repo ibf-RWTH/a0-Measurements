@@ -131,4 +131,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-The research project “KEK Automated analysis of fracture surfaces using artificial neural networks (KNN) for nuclear relevant safety components” is funded by the German Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (Project No. 1501621 ) on basis of a decision by the German Bundestag.
+The research project “KEK Automated analysis of fracture surfaces using artificial neural networks (KNN) for nuclear relevant safety components” is funded by the German Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (Project No. 1501621) on basis of a decision by the German Bundestag.
