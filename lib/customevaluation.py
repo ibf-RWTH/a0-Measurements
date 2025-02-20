@@ -485,7 +485,7 @@ class ModelEvaluationAndMeasurements:
         measurement_instances = [Macroscale(self.inputs[i], output_list_np[i], (image_dims_list[i]), nom_spec_width[i], nom_spec_thickness[i], specimen_type[i]) for i in range(len(output_list_np))]
 
         #%% calculate specimen dimensions
-        dimensions_and_scale_list = [inst._dimensions_and_scale() for inst in measurement_instances]
+        dimensions_and_scale_list = [inst.get_dimensions_and_scale() for inst in measurement_instances]
         dimensions_and_scale = np.array(dimensions_and_scale_list)
         
         spec_orient = dimensions_and_scale[:,0]
@@ -504,7 +504,7 @@ class ModelEvaluationAndMeasurements:
         dimensions_df2.to_excel(filename)    
 
         #%% area average method        
-        aam_list = [inst._area_average() for inst in measurement_instances]
+        aam_list = [inst.get_area_average() for inst in measurement_instances]
         aam = np.array(aam_list)
         
         aam_pixel_a0 = aam[:,0]

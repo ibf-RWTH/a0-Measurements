@@ -118,7 +118,19 @@ class Macroscale():
         self.width_W = self.pixel_width_W * self.scale
         self.netthickness_BN = self.pixel_netthickness_BN * self.scale
         self.starternotchlength_ak = self.pixel_starternotchlength_ak * self.scale
-
+    
+    def get_area_average(self):
+        return self._area_average()
+    
+    def get_dimensions_and_scale(self):
+        return self._dimensions_and_scale()
+    
+    def get_thicknessandwidth(self):
+        return self._measure_thicknessandwidth()
+    
+    def get_netthickness(self):
+        return self._measure_netthickness()
+    
     def _return_resizedimg(self):
         return self.resized_label_mask
     
