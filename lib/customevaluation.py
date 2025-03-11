@@ -206,6 +206,26 @@ def resizefromgen(output, image_dims):
         m_output = resize(ele, (pic_height, pic_width)).astype(np.uint8)
         yield m_output
 
+def extract_image_number(file_path):
+    """
+    Extract suffix of input filename.
+
+    Parameters
+    ----------
+    file_path : path
+        Path to input file.
+
+    Returns
+    -------
+    str
+        Suffix of filename.
+
+    """
+    filename = os.path.basename(file_path)  # Get only the filename
+    name, _ = os.path.splitext(filename)  # remove .png extension
+    
+    return name.rsplit("_", 1)[-1]  # Split at last '_' and take the last part
+    
 #%% 
 class ModelEvaluationAndMeasurements:
     """Calculate metricss for segmentation model and dataset with caching and pretransforms."""
@@ -227,6 +247,15 @@ class ModelEvaluationAndMeasurements:
         self.inputs = get_filenames_of_path(root / "images")
         self.targets = get_filenames_of_path(root / "labels")
             
+        # sort the targets according to the input 
+
+        # Get ordered list of image numbers from inputs
+        image_numbers = [extract_image_number(inp) for inp in self.inputs]
+        
+        # Sort targets based on this list
+        sorted_targets = sorted(self.targets, key=lambda tgt: image_numbers.index(extract_image_number(tgt)))
+        self.targets = sorted_targets
+        
         #target dimensions of image
         self.patch_size = int(self.args.target_dims[0] / 2)
 
