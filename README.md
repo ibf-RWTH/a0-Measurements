@@ -30,11 +30,12 @@ Welcome to the a0-Measurements repository.  This repository provides a tool for 
   * `scikit-learn==1.1.3`
   * `seaborn==0.13.2`
   * `segmentation_models_pytorch==0.3.4`
-  * `torch==2.5.1`
+  * `torch==2.6.0`
   * `torchvision==0.20.1`
   * `torch-summary==1.4.5`
   * `tqdm==4.67.1`
 * Custom module: `customevaluation` from the lib folder
+* Please update PyTorch to a version >= 2.6.0, as a Remote Code Execution (RCE) class vulnerability (CVE-2025-32434 https://github.com/ibf-RWTH/a0-Measurements/security/dependabot/10) has been detected!
 
 ## Installation
 
